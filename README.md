@@ -30,6 +30,8 @@
       1. new webpack.BannerPlugin 셋팅
    10. Webpack 커스텀 플러그인 만들기
        1. Class를 생성하여 compiler.hooks을 이용하여 컴파일 시점에 start 시간을 찍어본다.
+   11. data url scheme plugin 이용하여 이미지를 Base64 인코딩 하기
+       1. 명령어 npm i -D url-loader
 3. babel 설치
 4. lint 설치
 5. react 설치
