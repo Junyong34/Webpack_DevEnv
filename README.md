@@ -24,8 +24,10 @@
       2. 명령어 npm i -D mini-css-extract-plugin (external css 방식)
    7. file 로더 설정
       1. 명령어 npm i -D file-loader
-   8. 사용하지 않는 파일 제거 
+   8. 사용하지 않는 파일 제거 ( 빌드 이전 결과물을 제거)
       1. npm i -D clean-webpack-plugin
+   9. 번들링 된 소스에 배너를 추가한다.
+      1. new webpack.BannerPlugin 셋팅
 3. babel 설치
 4. lint 설치
 5. react 설치
