@@ -12,6 +12,8 @@
       1. "build:prod": "webpack --mode production"
       2. "build:dev": "webpack --mode development"
          1. 각 모드 별로 webpack 번들링 파일 내용이 달라진다.
+   4. 번들링 된 디렉토리에 html 파일도 포함시키기 위해서 플러그인을 설치한다.
+      1. 명령어 npm i html-webpack-plugin
 3. babel 설치
 4. lint 설치
 5. react 설치
