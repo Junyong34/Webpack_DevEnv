@@ -5,7 +5,7 @@
 1. npm 설치
    1. 명령어 npm init 
       1. package.json 셋팅
-2. webpack 설치
+2. webpack 설치 및 설정
    1. 명령어 npm i -D webpack webpack-cli
    2. 설정을 위한 파일 webpack.config.js
    3. package.json Script build 추가
@@ -19,7 +19,9 @@
       2. webpack.config.js devServer 설정값을 추가 한다. 
       3. script 추가 한다.
          1."start": "webpack serve --open --mode=development"
-      4. 
+   6. style 설정
+      1. 명령어 npm i -D style-loader css-loader (internal css 방식)
+      2. 명령어 npm i -D mini-css-extract-plugin (external css 방식)
 3. babel 설치
 4. lint 설치
 5. react 설치
