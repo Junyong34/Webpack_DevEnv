@@ -28,6 +28,8 @@
       1. npm i -D clean-webpack-plugin
    9. 번들링 된 소스에 배너를 추가한다.
       1. new webpack.BannerPlugin 셋팅
+   10. Webpack 커스텀 플러그인 만들기
+       1. Class를 생성하여 compiler.hooks을 이용하여 컴파일 시점에 start 시간을 찍어본다.
 3. babel 설치
 4. lint 설치
 5. react 설치

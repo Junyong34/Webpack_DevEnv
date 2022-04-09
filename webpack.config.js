@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const {CleanWebpackPlugin} =require('clean-webpack-plugin')
 const webpack = require('webpack');
+const WebpackBundleTime =require('./CustomWebpackPlugin/WebpackBundleTime')
 
 
 module.exports = {
@@ -41,6 +42,7 @@ module.exports = {
         new webpack.BannerPlugin({
             banner: () => `빌드 날짜: ${new Date().toLocaleString()}`,
         }),
+        new WebpackBundleTime(),
     ]
 
 }
