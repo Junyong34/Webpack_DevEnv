@@ -22,6 +22,10 @@
    6. style 설정
       1. 명령어 npm i -D style-loader css-loader (internal css 방식)
       2. 명령어 npm i -D mini-css-extract-plugin (external css 방식)
+   7. file 로더 설정
+      1. 명령어 npm i -D file-loader
+   8. 사용하지 않는 파일 제거 
+      1. npm i -D clean-webpack-plugin
 3. babel 설치
 4. lint 설치
 5. react 설치
