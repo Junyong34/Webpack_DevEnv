@@ -1,0 +1,19 @@
+{
+  "name": "webpack_devenv",
+  "version": "1.0.0",
+  "description": "devEnv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junyong34/Webpack_DevEnv.git"
+  },
+  "author": "devPark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Junyong34/Webpack_DevEnv/issues"
+  },
+  "homepage": "https://github.com/Junyong34/Webpack_DevEnv#readme"
+}
