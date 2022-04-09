@@ -14,6 +14,12 @@
          1. 각 모드 별로 webpack 번들링 파일 내용이 달라진다.
    4. 번들링 된 디렉토리에 html 파일도 포함시키기 위해서 플러그인을 설치한다.
       1. 명령어 npm i html-webpack-plugin
+   5. 매번 빌드하는건 비효율적이라 플러그인을 설치한다.
+      1. 명령어 npm i webpack-dev-server -D
+      2. webpack.config.js devServer 설정값을 추가 한다. 
+      3. script 추가 한다.
+         1."start": "webpack serve --open --mode=development"
+      4. 
 3. babel 설치
 4. lint 설치
 5. react 설치
