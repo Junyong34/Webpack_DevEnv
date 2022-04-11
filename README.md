@@ -52,5 +52,10 @@
    2. npx prettier src/index.js --write && npx prettier src/index.js --fix 실행하여 검사
    3. ESLint + Prettier 통합
       1. 명령어 npm i -D eslint-config-prettier eslint-plugin-prettier
-6. 자동화
+6. 자동화 (husky)
+   1. git을 사용한다면 commit 전, push 전, git 실행 command 시점에 실행 할 수있는 hook을 제공한다
+   2. 명령어 npm i -D husky
+   3. package.json script에 "prepare": "husky install" 추가
+   4. 명령어 npx husky add .husky/pre-commit 'yarn eslint --fix'
+   5. 명령어 npm i -D lint-staged (변경된 파일만 실행)
 7. react 설치
