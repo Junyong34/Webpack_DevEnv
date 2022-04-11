@@ -48,4 +48,9 @@
    2. 명령어 npx eslint --init
       1. 대화식 명령어 내 프로젝트 환경에 맞춰서 셋팅해준다
 5. prettier 설치
-6. react 설치
+   1. 명령어 npm i -D prettier
+   2. npx prettier src/index.js --write && npx prettier src/index.js --fix 실행하여 검사
+   3. ESLint + Prettier 통합
+      1. 명령어 npm i -D eslint-config-prettier eslint-plugin-prettier
+6. 자동화
+7. react 설치
