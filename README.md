@@ -33,5 +33,15 @@
    11. data url scheme plugin 이용하여 이미지를 Base64 인코딩 하기
        1. 명령어 npm i -D url-loader
 3. babel 설치
+   1. 명령어 npm i -D @babel/core @babel/cli
+   2. 프리셋 사용기
+      1. preset-env, preset-flow, preset-react, preset-typescript
+      2. preset-env는 ECMAScript2015+으로 변환시 사용한다.
+      3. 명령어 npm i -D @babel/preset-env
+      4. npx babel src/common/babelTransCode.js로 바벨 트랜스파일된 결과를 확인해보자
+   3. 웹팩으로 통합
+      1. 명령어 npm i -D babel-loader
+      2. 폴리필 사용하기 위해 core-js 설치
+         1. 명령어 npm i -D core-js@
 4. lint 설치
 5. react 설치
