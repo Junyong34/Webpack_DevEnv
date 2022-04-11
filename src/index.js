@@ -1,13 +1,15 @@
 import {helloLog, add} from "./common/util";
-import "./style/resetStyle.css"
-import chartImg from './image/apple-touch-icon.png'
-import Mercury from './image/Mercury.jpg'
+import "./style/resetStyle.css";
+import chartImg from './image/apple-touch-icon.png';
+import Mercury from './image/Mercury.jpg';
 import List from "./List";
 
 const helloText = helloLog();
 const calcu = add(2,3);
-const imgEl = `<img src="${chartImg}" alt='chart' />`
-const imgEl2 = `<img src="${Mercury}" alt='chart2' />`
+const imgEl = `<img src="${chartImg}"
+ alt='chart' />`
+const imgEl2 = `<img src="${Mercury}"
+ alt='chart2' />`
 
 const users = [
     {
